@@ -4,7 +4,7 @@ const App = () => {
   const [name, setName] = useState([])
 
 useEffect(() => {
-  fetch('https://starter-name-generator-render-8ebi.onrender.com/') // Change this URL to the one that you just deployed
+  fetch('https://starter-name-generator-ssg5.onrender.com/generate') // Change this URL to the one that you just deployed
     .then((res) => res.json())
     .then((name) => setName([name]))
 
